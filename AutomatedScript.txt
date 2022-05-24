@@ -1,0 +1,25 @@
+public class Work1{
+public static void main(Stirng ars[]){
+
+WebDriver driver=new ChromeDriver();
+driver.get("https://www.flipkart.com");
+driver.findElement(By.xpath("//*[text()='REDMI Note 10 pro(Dark Night ,128 GB){6GB RAM)']"));
+String s1=driver.finElement(By.id('price');
+System.out.println(s);
+driver.close();
+driver.get("https://www.amazon.com");
+driver.findElement(By.xpath("//*[text()='REDMI Note 10 pro(Dark Night ,128 GB){6GB RAM)']"));
+String s2=driver.finElement(By.id('price');
+System.out.println(s);
+
+if(s1>s2){
+System.out.println("price of mobile in flipkart is cheaper");
+
+}
+else
+{
+System.out.println("price of mobile in amazon is cheaper");
+
+}
+}
+\\}
